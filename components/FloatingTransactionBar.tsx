@@ -88,7 +88,7 @@ function CurrencyPicker({
 }
 
 /* ─── Main Component ──────────────────────────────────────────────────────── */
-export function FloatingTransactionBar({ onAdd }: FloatingTransactionBarProps) {
+export function FloatingTransactionBar({ onAdd, onSuccess }: FloatingTransactionBarProps) {
   const { currency: globalCurrency } = useApp();
 
   const [isOpen, setIsOpen] = useState(false);

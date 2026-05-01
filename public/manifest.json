@@ -1,0 +1,17 @@
+{
+  "name": "Antigravity Finance OS",
+  "short_name": "Antigravity",
+  "description": "A high-end, futuristic personal finance and budget tracker.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0E14",
+  "theme_color": "#9B8EDF",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
